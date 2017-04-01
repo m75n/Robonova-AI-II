@@ -129,7 +129,8 @@ LR_TILT_CHECK:
         MOVE G6C, 140, 40, 80
         WAIT
         GOSUB STANDARD_POSE
-        RETURN
+    ENDIF
+    RETURN
 
 ' 前倾处理
 TILT_FRONT:
